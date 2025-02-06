@@ -1,5 +1,7 @@
 # Minecraft Docker MCP
 
+[![smithery badge](https://smithery.ai/badge/@rgbkrk/rcon-mcp)](https://smithery.ai/server/@rgbkrk/rcon-mcp)
+
 An MCP server for Minecraft-in-Docker that enables AI interactions with a running Minecraft server using itzg's docker-minecraft-server container.
 
 * Expose server administration to AI clients like Claude Desktop, Cursor, and Zed.
@@ -29,6 +31,14 @@ If you get a response, you're all set! If you don't, please refer to the [itzg/d
 ## MCP Integration
 
 This MCP server leverages itzg's docker-minecraft-server container's built-in RCON functionality to interact with the Minecraft server. The container provides the `rcon` command within the running container, making it an ideal target for MCP interactions.
+
+### Installing via Smithery
+
+To install Minecraft Docker MCP for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@rgbkrk/rcon-mcp):
+
+```bash
+npx -y @smithery/cli install @rgbkrk/rcon-mcp --client claude
+```
 
 ### Connecting to Claude Desktop
 
