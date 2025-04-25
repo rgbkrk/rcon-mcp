@@ -1,3 +1,5 @@
+[![MseeP Badge](https://mseep.net/pr/rgbkrk-rcon-mcp-badge.jpg)](https://mseep.ai/app/rgbkrk-rcon-mcp)
+
 # Minecraft Docker MCP
 
 An MCP server for Minecraft-in-Docker that enables AI interactions with a running Minecraft server using itzg's docker-minecraft-server container.
